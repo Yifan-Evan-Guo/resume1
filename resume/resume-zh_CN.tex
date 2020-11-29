@@ -1,0 +1,70 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{indentfirst} 
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{郭一凡}
+
+\contactInfo{(+86) 181-2707-9727}{yifan.g@icloud.com}{数据分析/挖掘实习生}{GitHub @Yifan-Evan-Guo}
+
+ 
+\section{目前状态}
+\begin{itemize}[parsep=0.2ex]
+\item 本人成绩优秀、工作负责、自我驱动力强、皮实、热爱尝试新事物。
+\item 已取得2021年九月开始的伯明翰大学$PhD$ (多目标优化方向) 的$offer$，寻求数据分析/挖掘等相关职位实习机会。
+\item 已结束隔离，现住深圳南山荔林地铁站附近，可\textbf{即时到岗}。
+\end{itemize}
+
+\section{教育背景}
+\datedsubsection{\textbf{伯明翰大学}, 高级计算机科学,\textit{硕士}}{2019.9 - 2020.10}
+\setlength{\parindent}{2em} \textbf{主要荣誉: 一等学位(Distinction)}
+
+\setlength{\parindent}{2em} \textbf{主修课程:} 神经计算 (计算机视觉),  智能数据分析 (文本数据挖掘), 高级的自然启发搜索和优化 (元启发式优化) 等。
+
+
+\datedsubsection{\textbf{长春大学}, 信息与计算科学,\textit{本科}}{2015.9 - 2019.6}
+
+\setlength{\parindent}{2em}\textbf{主要荣誉: 优秀毕业生}; 二等奖学金;  论文一篇 (基于数据分析的网络侧估计终端用户视频体验的研究,  长春大学学报); 国家级优秀大创项目负责人 (1项) 、省级优秀大创项目负责人 (2项); 数学建模省一等奖 (1项) 、二等奖 (2项); 大学生实践创协协会会长 (21人团队，427人规模，10m经费，全国“百优创业社团”)。
+
+
+\section{近期项目}
+
+\datedsubsection{\textbf{一款多目标优化可视化工具}, 多目标优化 }{2020.6 - 2020.9}
+
+\setlength{\parindent}{2em}
+\textbf{项目描述:}在启发式优化算法搜索最优解后，得到的最优解集会同时包含大量的最优解，决策者往往很难选择出最适合的解；本项目的通过使用$Matlab$工具，针对最优解集的收敛性与分布性以及平行坐标展现高维数据的特点，完成设计、开发并测试了一款从最优解集中折衷筛选合适数量并展现最优解的可视化工具，为决策者提供更合适的解作为参考。
+
+\setlength{\parindent}{2em}
+\textbf{负责内容:} 从零开始学习该领域，独立完成从可视化提取算法设计、$Axure RP$设计、使用$Matlab$开发并测试可视化工具 ($GUI$, $exe$格式)，最终使用$PowerPoint$完成十五分钟英语展示、$LaTex$撰写九千词报告,并取得优秀成绩。\\
+
+\datedsubsection{\textbf{核磁共振 (MRI) 图像重建}, 医学影像重建}{2019.11 - 2019.12}
+
+\setlength{\parindent}{2em}
+\textbf{项目描述:}本项目$(https://fastmri.org/)$是$Facebook AI Research$和纽约大学$Langone Health$的合作项目 ，旨在更快速、更准确的通过机器学习方法重建$MRI$图像，实验评估结果得分计入$20\%$课程成绩。本次项目中，总数据集按三七比例分成测试集及训练集，通过控制变量法尝试一种机器学习模型 ($U-Net$)、两种优化器 ($Adam$, $SGD$)、三种损失函数 ($L1$, $L2$, $SSIM$)，使用$Python (PyTorch)$借助$GPU$加速运算,分别对四倍速及八倍速扫描的核磁共振图像进行重建; 经过反复试验以及结果比对，最终选取$U-Net+Adam+SSIM$对四倍速图像重建，得到$\textbf{98.6\%}$的准确率。
+
+\setlength{\parindent}{2em}
+\textbf{负责内容:} 五人团队作业并取得$\textbf{86}$分的优异成绩 ($\textbf{top1}$，平均成绩53分)，分为团队工作及个人工作。在团队中负责沟通协调团队伙伴 (开会、实验、结果讨论、报告撰写); 个人负责整体实验过程设计、重建图像机器学习模型 ($U-Net$)的代码编写及结构解释、报告绘图，及实验过程描述。
+
+
+
+
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 熟悉$Q-Learning$、$GBDT$、$RF$等机器学习模型，了解$CF$、$KNN$、$K-Means$、$LR$等算法;
+  \item 了解$Boosting$和$Bagging$等集成学习方法，以及简单的模型融合方法;
+  \item 会用$Matlab/SQL/Python/Excel$等进行数据分析，有过完整的建模实践经验;
+  \item 擅长使用$GitHub$、 $Stack$ $overflow$, 阅读技术类文档资料能力较强;
+  \item 雅思$6.5$，具有良好的英语听说读写能力.
+\end{itemize}
+
+
+\end{document}
